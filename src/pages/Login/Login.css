@@ -1,0 +1,72 @@
+.formContainer{
+    background-color: transparent;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formWrapper {
+    background-color: transparent;
+    padding: 20px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.logoname{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    display: grid;
+}
+
+.title-login{
+    color: gray;
+    font-size: 12px;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputinput{
+    padding: 15px;
+    border: none;
+    /* margin-bottom: 30px; */
+    border-radius: 5px;
+    width: 250px;
+    border-bottom: 1px solid#B0C4DE;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+::placeholder{
+    color: rgb(175, 175, 175);
+}
+
+.btn-sign {
+    /* background-color: #002D72; */
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background: #ff4f4f;
+    border-radius: 5px;
+}
+
+p{
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+Link{
+    color:rgba(255, 255, 255, 0.2)
+}
